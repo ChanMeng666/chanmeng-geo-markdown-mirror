@@ -1,0 +1,33 @@
+/* ask-ai-buttons.css — minimal, theme-agnostic styling for the ask-AI button pair.
+   Override or replace to match your design system. */
+.ask-ai-buttons {
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.ask-ai-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  padding: 0.4em 0.8em;
+  font: inherit;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  background: transparent;
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.ask-ai-btn:hover {
+  transform: translateY(-1px);
+  background: color-mix(in srgb, currentColor 8%, transparent);
+}
+
+.ask-ai-btn:active {
+  transform: translateY(0);
+}

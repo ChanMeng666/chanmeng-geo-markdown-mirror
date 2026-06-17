@@ -1,0 +1,24 @@
+# geo-markdown-mirror
+
+> A Claude Code skill that generates plain-Markdown mirror pages (the neon.com/pricing.md pattern) of a website's key pages — for GEO and one-click ask-AI.
+
+This file follows the [llms.txt](https://llmstxt.org/) convention: a concise, machine-readable map
+of the project for large language models and AI agents.
+
+## About
+
+- Repository: https://github.com/ChanMeng666/geo-markdown-mirror
+- Primary stack: Unknown — fill in the primary language/stack
+- License: MIT
+
+## Key documents
+
+- [README](https://github.com/ChanMeng666/geo-markdown-mirror/blob/main/README.md): overview, features, installation, usage
+- [AGENTS.md](https://github.com/ChanMeng666/geo-markdown-mirror/blob/main/AGENTS.md): how AI agents should work in this repo
+- [CONTRIBUTING](https://github.com/ChanMeng666/geo-markdown-mirror/blob/main/CONTRIBUTING.md): development setup and contribution workflow
+- [CHANGELOG](https://github.com/ChanMeng666/geo-markdown-mirror/blob/main/CHANGELOG.md): version history
+
+## For agents
+
+To work effectively here: read the README and AGENTS.md first, then follow the commands and
+conventions they describe. Prefer the project's own scripts over ad-hoc commands.

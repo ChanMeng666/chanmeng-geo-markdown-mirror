@@ -1,0 +1,19 @@
+# {{PROJECT_NAME}}
+
+> {{ONE_LINE_SUMMARY}}
+
+Plain-text Markdown mirrors of this site's key pages, for AI agents and LLMs.
+Each link below is a faithful, JS-free rendering of the corresponding page —
+ideal for citation and for "ask AI" flows.
+
+## Pages
+
+- [Home](/llms/index.md): {{summary}}
+- [Pricing](/llms/pricing.md): {{summary}}
+- [Docs — Getting Started](/llms/docs-getting-started.md): {{summary}}
+
+## Notes
+
+- Canonical site: {{ORIGIN}}
+- Mirrors are regenerated with `npm run regen:mirrors`; this index with
+  `npm run build:llms`.

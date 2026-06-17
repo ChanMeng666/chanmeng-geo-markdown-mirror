@@ -1,0 +1,49 @@
+{
+  "skill_name": "geo-markdown-mirror",
+  "evals": [
+    {
+      "id": 0,
+      "name": "nextjs-pricing-slider",
+      "prompt": "My Next.js marketing site has a pricing page at /pricing with an interactive slider that changes the displayed plan prices. People keep telling me ChatGPT gives wrong info about my pricing when they ask it. Can you make the pricing page (and the homepage) readable by AI agents, and add a button so visitors can open the page in ChatGPT? The project is in this folder.",
+      "expected_output": "A /llms/ folder under public/ with pricing.md and index.md where the slider plan/price data is flattened into a plain Markdown table; an llms.txt at the web root linking both; <link rel=\"alternate\" type=\"text/markdown\"> discovery hints on the pricing and home pages; an AskAIButtons component wired to /llms/pricing.md (same-site, not github raw); a regen script + npm scripts.",
+      "files": [],
+      "assertions": [
+        { "text": "A public/llms/ folder exists containing pricing.md and index.md (one .md per confirmed page)", "passed": null, "evidence": "" },
+        { "text": "pricing.md contains the plan tiers and prices as a plain Markdown table or list (no leftover JSX/<div>, no raw slider markup)", "passed": null, "evidence": "" },
+        { "text": "Each mirror leads with a header naming the canonical source URL", "passed": null, "evidence": "" },
+        { "text": "An llms.txt exists at the web root (public/) and links every generated mirror", "passed": null, "evidence": "" },
+        { "text": "<link rel=\"alternate\" type=\"text/markdown\"> is added for the pricing and home pages (via metadata.alternates or next/head)", "passed": null, "evidence": "" },
+        { "text": "An ask-AI button component is added and references /llms/, NOT raw.githubusercontent.com", "passed": null, "evidence": "" },
+        { "text": "A regen:mirrors script (regen-mirrors.mjs) and npm script are present", "passed": null, "evidence": "" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "docusaurus-docs-geo",
+      "prompt": "I run a Docusaurus docs site. I want ChatGPT and Perplexity to be able to cite my docs accurately, and I'd like each doc page to have an 'Open in ChatGPT' button that points to a clean markdown version on my own domain (right now it points at github raw which feels fragile). Set this up for the main intro page and one or two key doc pages.",
+      "expected_output": "Mirrors under static/llms/ generated in source mode from the .mdx files (JSX stripped); an llms.txt updated/created at static root linking them; per-page discovery hints; the existing OpenInChatGPT/Copy buttons (or new AskAIButtons) re-pointed at same-site /llms/<slug>.md instead of raw.githubusercontent.com.",
+      "files": [],
+      "assertions": [
+        { "text": "A static/llms/ folder exists with .md mirrors for the intro and chosen doc pages", "passed": null, "evidence": "" },
+        { "text": "Mirrors are clean markdown with import/JSX component lines stripped but prose/headings/tables kept", "passed": null, "evidence": "" },
+        { "text": "An llms.txt at the static root links every mirror (existing one updated, not clobbered if present)", "passed": null, "evidence": "" },
+        { "text": "The ask-AI / Open-in-ChatGPT button is pointed at a same-site /llms/<slug>.md URL, not raw.githubusercontent.com", "passed": null, "evidence": "" },
+        { "text": "A regen approach (script + npm script) is provided for keeping mirrors in sync", "passed": null, "evidence": "" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "static-html-landing",
+      "prompt": "i have a plain html landing site (just index.html and a features.html, no framework). i want to add those neon-style .md versions of the pages so agents can read them, plus the llms.txt thing. can you set it up and add the open-in-chatgpt / copy markdown buttons too",
+      "expected_output": "A /llms/ folder at the web root with index.md and features.md converted from the HTML; llms.txt at root linking them; <link rel=\"alternate\" type=\"text/markdown\"> in each HTML page head; the vanilla ask-ai-buttons.js + .css dropped in and wired via data-mirror attributes.",
+      "files": [],
+      "assertions": [
+        { "text": "A /llms/ folder at the web root contains index.md and features.md mirrored from the HTML", "passed": null, "evidence": "" },
+        { "text": "Mirrors are plain markdown (HTML converted, no <div>/<section> tags left, nav/script chrome removed)", "passed": null, "evidence": "" },
+        { "text": "An llms.txt at the web root links both mirrors", "passed": null, "evidence": "" },
+        { "text": "<link rel=\"alternate\" type=\"text/markdown\"> is present in each HTML page's <head>", "passed": null, "evidence": "" },
+        { "text": "The vanilla ask-ai-buttons.js + .css are added and wired (data-mirror attributes point at /llms/<slug>.md)", "passed": null, "evidence": "" }
+      ]
+    }
+  ]
+}
