@@ -5,11 +5,11 @@ Codex, etc.) working with this repository. Read it before writing or changing an
 
 ## Project Overview
 
-geo-markdown-mirror — A Claude Code skill that generates plain-Markdown mirror pages (the neon.com/pricing.md pattern) of a website's key pages — for GEO and one-click ask-AI.
+chanmeng-geo-markdown-mirror — A Claude Code skill that generates plain-Markdown mirror pages (the neon.com/pricing.md pattern) of a website's key pages — for GEO and one-click ask-AI.
 
 - **Primary language / stack:** Claude Code skill (Markdown SKILL.md + Node ESM helper scripts + React/vanilla asset components)
 - **Default branch:** `main`
-- **Repository:** https://github.com/ChanMeng666/geo-markdown-mirror
+- **Repository:** https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror
 
 ## What this skill does
 
@@ -30,7 +30,7 @@ agents/crawlers parse the content cleanly (GEO) and visitors can one-click "ask 
 | `assets/vanilla/ask-ai-buttons.{js,css}` | Framework-agnostic button version. |
 | `assets/templates/llms.txt` | Starting shape for the index. |
 | `evals/evals.json` | Test prompts + assertions used to validate the skill. |
-| `geo-markdown-mirror.skill` | The packaged, installable skill bundle. |
+| `chanmeng-geo-markdown-mirror.skill` | The packaged, installable skill bundle. |
 
 ## Working on the scripts
 
@@ -49,7 +49,7 @@ no build step or package.json in this repo.
   to a table) and is preserved by `regen-mirrors.mjs` across regenerations. Don't auto-overwrite it.
 - **Mirrors point at same-site `/llms/<slug>.md`, never `raw.githubusercontent.com`** — the on-site
   mirror works for private repos, custom domains, and pages with no markdown source.
-- **Re-package after editing `SKILL.md`** so `geo-markdown-mirror.skill` stays in sync with the source.
+- **Re-package after editing `SKILL.md`** so `chanmeng-geo-markdown-mirror.skill` stays in sync with the source.
 
 ## Reading Order
 

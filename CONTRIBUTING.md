@@ -1,4 +1,4 @@
-# Contributing to geo-markdown-mirror
+# Contributing to chanmeng-geo-markdown-mirror
 
 Thank you for your interest in contributing! This guide explains how to get involved.
 
@@ -6,7 +6,7 @@ Thank you for your interest in contributing! This guide explains how to get invo
 
 ### Reporting Bugs
 
-If you find a bug, please [open an issue](https://github.com/ChanMeng666/geo-markdown-mirror/issues/new/choose) with:
+If you find a bug, please [open an issue](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/issues/new/choose) with:
 
 - Steps to reproduce the problem
 - Expected vs. actual behavior (screenshots or logs help)
@@ -14,14 +14,14 @@ If you find a bug, please [open an issue](https://github.com/ChanMeng666/geo-mar
 
 ### Suggesting Features
 
-Have an idea? [Open a feature request](https://github.com/ChanMeng666/geo-markdown-mirror/issues/new/choose) describing the problem you want to solve and your proposed solution.
+Have an idea? [Open a feature request](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/issues/new/choose) describing the problem you want to solve and your proposed solution.
 
 ### Submitting Changes
 
 1. **Fork** the repository and **clone** your fork:
    ```bash
-   git clone https://github.com/<your-username>/geo-markdown-mirror.git
-   cd geo-markdown-mirror
+   git clone https://github.com/<your-username>/chanmeng-geo-markdown-mirror.git
+   cd chanmeng-geo-markdown-mirror
    ```
 2. **Create a branch** for your changes:
    ```bash

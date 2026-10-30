@@ -2,7 +2,7 @@
 /**
  * AskAIButtons — "Open in ChatGPT" + "Copy as Markdown" for a page's .md mirror.
  *
- * Pairs with the geo-markdown-mirror skill. Point it at the SAME-SITE mirror
+ * Pairs with the chanmeng-geo-markdown-mirror skill. Point it at the SAME-SITE mirror
  * (e.g. "/llms/pricing.md"), not a GitHub raw URL — the on-site mirror works for
  * private repos, custom domains, and pages with no markdown source.
  *

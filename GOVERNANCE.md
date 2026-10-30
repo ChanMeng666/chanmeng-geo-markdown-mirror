@@ -1,6 +1,6 @@
 # Project Governance
 
-This document describes how **geo-markdown-mirror** is governed and how decisions are made.
+This document describes how **chanmeng-geo-markdown-mirror** is governed and how decisions are made.
 
 ## Overview
 
@@ -28,8 +28,8 @@ contributor. Contributors are expected to follow the [Code of Conduct](CODE_OF_C
 - **Day-to-day changes** (bug fixes, docs, small features) are decided through normal pull-request
   review by the maintainer.
 - **Significant changes** (breaking changes, major features, direction shifts) are discussed openly
-  in [GitHub Issues](https://github.com/ChanMeng666/geo-markdown-mirror/issues) or
-  [Discussions](https://github.com/ChanMeng666/geo-markdown-mirror/discussions) before implementation, so the
+  in [GitHub Issues](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/issues) or
+  [Discussions](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/discussions) before implementation, so the
   community can weigh in.
 
 ## Becoming a Maintainer

@@ -1,5 +1,5 @@
 ---
-name: geo-markdown-mirror
+name: chanmeng-geo-markdown-mirror
 description: >-
   Generate plain-Markdown "mirror" pages of a web project's important pages
   (pricing, docs, features, landing, long-form content) collected under a

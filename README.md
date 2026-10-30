@@ -8,13 +8,13 @@
 
 <div align="center">
 
-# geo-markdown-mirror
+# chanmeng-geo-markdown-mirror
 
 A Claude Code skill that generates plain-Markdown mirror pages (the neon.com/pricing.md pattern) of a website's key pages — for GEO and one-click ask-AI.
 
-[![License](https://img.shields.io/github/license/ChanMeng666/geo-markdown-mirror?style=flat-square)](LICENSE)
-[![Issues](https://img.shields.io/github/issues/ChanMeng666/geo-markdown-mirror?style=flat-square)](https://github.com/ChanMeng666/geo-markdown-mirror/issues)
-[![Stars](https://img.shields.io/github/stars/ChanMeng666/geo-markdown-mirror?style=flat-square)](https://github.com/ChanMeng666/geo-markdown-mirror/stargazers)
+[![License](https://img.shields.io/github/license/ChanMeng666/chanmeng-geo-markdown-mirror?style=flat-square)](LICENSE)
+[![Issues](https://img.shields.io/github/issues/ChanMeng666/chanmeng-geo-markdown-mirror?style=flat-square)](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/issues)
+[![Stars](https://img.shields.io/github/stars/ChanMeng666/chanmeng-geo-markdown-mirror?style=flat-square)](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/stargazers)
 [![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-EA4AAA?style=flat-square&logo=githubsponsors)](https://github.com/sponsors/ChanMeng666)
 
 </div>
@@ -27,7 +27,7 @@ shell, not the numbers. [Neon](https://neon.com/pricing.md) fixed this by publis
 mirror of each important page at a sibling URL — *"Agents were getting confused by our pricing.
 Turns out JS-based sliders are not the best way for them to parse things."*
 
-**geo-markdown-mirror** is a [Claude Code](https://claude.com/claude-code) skill that does this for
+**chanmeng-geo-markdown-mirror** is a [Claude Code](https://claude.com/claude-code) skill that does this for
 any project. Point it at a website or docs site and it identifies the content-rich pages, generates
 faithful plain-Markdown mirrors under a `/llms/` folder (interactive widgets flattened to plain
 tables), builds an `llms.txt` index, injects `rel="alternate" type="text/markdown"` discovery hints,
@@ -71,10 +71,10 @@ Install the packaged skill, then invoke it from Claude Code:
 
 ```bash
 # Option A: install the bundled .skill package
-#   In Claude Code, install geo-markdown-mirror.skill via the skills UI.
+#   In Claude Code, install chanmeng-geo-markdown-mirror.skill via the skills UI.
 
 # Option B: copy the skill folder into your Claude Code skills directory
-cp -r geo-markdown-mirror ~/.claude/skills/geo-markdown-mirror
+cp -r chanmeng-geo-markdown-mirror ~/.claude/skills/chanmeng-geo-markdown-mirror
 ```
 
 ## 📖 Usage
@@ -106,7 +106,7 @@ Contributions are welcome! Please read the [Contributing Guide](CONTRIBUTING.md)
 
 ## ❤️ Support & Sponsor
 
-- Questions? Open a [Discussion](https://github.com/ChanMeng666/geo-markdown-mirror/discussions) or see [SUPPORT.md](SUPPORT.md).
+- Questions? Open a [Discussion](https://github.com/ChanMeng666/chanmeng-geo-markdown-mirror/discussions) or see [SUPPORT.md](SUPPORT.md).
 - Found a security issue? Follow [SECURITY.md](SECURITY.md).
 - If this project helps you, consider [sponsoring](https://github.com/sponsors/ChanMeng666) ☕.
 

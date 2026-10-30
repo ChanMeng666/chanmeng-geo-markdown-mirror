@@ -1,7 +1,7 @@
 /**
  * ask-ai-buttons.js — framework-agnostic "Open in ChatGPT" + "Copy as Markdown".
  *
- * Pairs with the geo-markdown-mirror skill. No build step. Drop into any static
+ * Pairs with the chanmeng-geo-markdown-mirror skill. No build step. Drop into any static
  * or Vite site.
  *
  * Usage:

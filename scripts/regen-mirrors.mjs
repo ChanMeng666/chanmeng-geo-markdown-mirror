@@ -6,7 +6,7 @@
  * plain-text Markdown version that AI agents and crawlers can parse cleanly.
  *
  * It is driven by a config file at the project root: `geo-mirror.config.json`.
- * The geo-markdown-mirror skill writes this for you; a minimal example:
+ * The chanmeng-geo-markdown-mirror skill writes this for you; a minimal example:
  *
  * {
  *   "origin": "https://example.com",      // canonical site URL (for headers/links)
