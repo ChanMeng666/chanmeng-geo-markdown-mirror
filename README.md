@@ -67,6 +67,21 @@ falls back to the closest pattern by analogy for other stacks (Astro, Gatsby, Sv
 
 ### Installation
 
+#### As a Claude Code plugin (recommended)
+
+```text
+/plugin install chanmeng-geo-markdown-mirror --marketplace ChanMeng666/chanmeng-geo-markdown-mirror
+```
+
+On Claude Code older than 2.1.275, add the marketplace first:
+
+```text
+/plugin marketplace add ChanMeng666/chanmeng-geo-markdown-mirror
+/plugin install chanmeng-geo-markdown-mirror@chanmeng-geo-markdown-mirror
+```
+
+#### Manual install
+
 Install the packaged skill, then invoke it from Claude Code:
 
 ```bash

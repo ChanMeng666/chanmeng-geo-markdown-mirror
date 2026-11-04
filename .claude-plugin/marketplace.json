@@ -1,0 +1,26 @@
+{
+  "name": "chanmeng-geo-markdown-mirror",
+  "description": "Chan Meng's chanmeng-geo-markdown-mirror plugin for Claude Code.",
+  "owner": {
+    "name": "Chan Meng",
+    "url": "https://github.com/ChanMeng666"
+  },
+  "plugins": [
+    {
+      "name": "chanmeng-geo-markdown-mirror",
+      "source": "./",
+      "description": "A Claude Code skill that generates plain-Markdown mirror pages (the neon.com/pricing.md pattern) of a website's key pages — for GEO and one-click ask-AI.",
+      "category": "documentation",
+      "tags": [
+        "agent-friendly",
+        "ai-seo",
+        "claude-code",
+        "claude-skill",
+        "generative-engine-optimization",
+        "geo",
+        "llms-txt",
+        "markdown"
+      ]
+    }
+  ]
+}
