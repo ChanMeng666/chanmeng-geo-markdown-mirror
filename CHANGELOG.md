@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-11-04
+
+### Added
+- Claude Code plugin packaging: `.claude-plugin/plugin.json` and `marketplace.json`. Install with
+  `/plugin install chanmeng-geo-markdown-mirror --marketplace ChanMeng666/chanmeng-geo-markdown-mirror`. The repo, marketplace, plugin and skill all
+  use the name `chanmeng-geo-markdown-mirror`. The manual `git clone` install still works as before.
+- CI runs `claude plugin validate --strict` on the manifests.
+
 ### Added
 - Initial project documentation and community-health files.
 
